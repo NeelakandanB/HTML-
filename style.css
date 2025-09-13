@@ -6,11 +6,12 @@
     border: solid grey 15px;
     height: 1850px;
     width: 1200px;
-    left: 460px;
+    left: 860px;
     position: relative;
 }
 
 .container2 {
+    background-color: #F6EFD8;
     border: solid black 3px;
     height: 1835px;
     width: 1183px;
@@ -20,7 +21,8 @@
 }
 
 .container3 {
-    background-color: bisque;
+    background: #ECECEC;
+    ;
     width: 1183px;
     height: 200px;
     padding: 10px 20px;
@@ -52,7 +54,7 @@
 }
 
 .left {
-    text-align: left; 
+    text-align: left;
     position: relative;
     right: 170px;
 }
@@ -159,40 +161,60 @@ td {
     border-top: none;
     border-bottom: none;
     text-align: center;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
 }
 
 .borderfinal td {
     border-bottom: 1px solid black;
-   
+    /* border-collapse: collapse; */
+
 }
-#barcode
-{
+
+#barcode {
     width: 130px;
     height: 30px;
-    position:relative ;
-    bottom: 50px;
+    position: relative;
+    bottom: 60px;
     left: 20px;
 }
-#roundimage
-{
+
+#roundimage {
     height: 130px;
     position: relative;
     left: 410px;
     bottom: 5px;
 }
 
-.finaldivision
-{
+.finaldivision {
     display: flex;
     gap: 100px;
     position: relative;
-    bottom: 90px;
+    bottom: 100px;
     margin-left: 8px;
 }
-#kattankulathoor
-{
+
+#kattankulathoor {
     position: relative;
-    bottom: 60px;
+    bottom: 70px;
     margin-left: 8px;
+}
+
+#sign {
+    position: relative;
+    bottom: 300px;
+    left: 730px;
+    width: 200px;
+
+}
+
+#valliammai {
+    position: relative;
+    left: 800px;
+    bottom: 250px;
+    width: 170px;
+}
+
+.finalbackground {
+    background: #ECECEC;
+    height: 180px;
 }
